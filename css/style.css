@@ -1,18 +1,54 @@
-/*container*/
-.container{
+/*dasamtavrebelia*/
 
-   width:(100%, 1440px);
+/*container*/
+
+.container{
+   width: min(100%, 1440px);
    margin: auto;
 }
 
-
-/*header/*
-
+/*header*/
 
 
+.header{
+   height: 160px;
+   margin: auto;
+   background-color: #758BFD;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 57px 98px;
+   
+}
 
+.header_icon{
+   font-size: 46px;
+   margin-right: 291px;
+}
+.header_div{
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   border-width: 10px;
+}
 
+.header-nav{
+   width: 393px;
+   display: flex;
+}
 
+.header_li{
+   display: inline-block;
+}
+
+.header_a{
+   font-family: Ubuntu;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 27.58px;
+   margin-inline: 50px;
+   color: #DDEAF8;
+ 
+}
 
 
 
@@ -25,9 +61,48 @@
 
 /*section*/
 
+.section{
+   width: ( 1244 / 1440 * 100% );
+   display: flex;
+   display: inline-block;
+   flex-wrap: wrap;
+   margin: 94px auto;
+   column-gap: 22px;
+   row-gap: 51px;
+}
 
+.section_title{
+   font-family: Ubuntu;
+   font-size: 32px;
+   color: #27187F;
+   vertical-align: top;
+   margin-bottom: 68px;
+}
 
+.article{
+   width: 400px;
+   height: 333px;
+   background-color: #DDEAF8;
+   display: flex;
+   justify-content: space-around;
+   display: inline-block;
+   column-gap: 22px;
+   border-radius: 10px;
 
+}
+
+.section_img{
+   width: 100%;
+   height: 211px;
+   object-position: center;
+}
+
+.article_text{
+   font-size: 20px;
+   color: #133B3A;
+   text-align: center;
+   margin-top: 33px;
+}
 
 
 
@@ -37,3 +112,41 @@
 
 
 /*footer*/
+
+.footer{
+   height: 239px;
+   display: flex;
+   padding: 75px 98px 109px;
+   justify-content: space-around;
+   align-items: center;
+   justify-content: flex-end;
+   background-color: #758BFD;
+}
+
+.footer_section{
+   display: flex;
+}
+
+
+.icon_section{
+   width: 114px;
+}
+
+.icon_title{
+   font-size: 20px;
+   color: #FFFFFF;
+   vertical-align: top;
+   margin-bottom: 20px;
+}
+
+.footer_nav_icon{
+   font-size: 22px;
+   color: #FFFFFF;
+}
+
+.icon_section{
+   margin-right: 709px;
+}
+.middle_a{
+   margin-inline: 20px;
+}
